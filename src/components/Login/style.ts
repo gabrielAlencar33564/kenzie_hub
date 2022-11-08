@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FormConteiner = styled.div`
+export const FormLogin = styled.div`
   width: 348px;
   padding: 42px 22px 28px 22px;
   text-align: center;
@@ -16,16 +16,6 @@ export const FormConteiner = styled.div`
     line-height: 28px;
     color: #f8f9fa;
     padding-bottom: 10px;
-  }
-
-  p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 22px;
-
-    color: #868e96;
-    padding-bottom: 18px;
   }
 
   form {
@@ -79,6 +69,45 @@ export const FormConteiner = styled.div`
   form button:hover {
     background-color: #212529;
     color: #59323f;
+
+    font-weight: 700;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    color: #868e96;
+    padding-bottom: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    max-width: 100%;
+    height: 45px;
+
+    background: #868e96;
+
+    border: 3px solid #868e96;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #f8f9fa;
+    cursor: pointer;
+  }
+
+  a:hover {
+    background-color: #212529;
 
     font-weight: 700;
   }
